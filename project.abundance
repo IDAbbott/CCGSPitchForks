@@ -174,8 +174,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19332048811817598,
-            "y": 0.7245119305856833,
+            "x": 0.06101477199743096,
+            "y": 0.6160520607375272,
             "uniqueID": 1749610180701,
             "ioValues": [
                 {
@@ -192,8 +192,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.30122029543994866,
-            "y": 0.6876355748373102,
+            "x": 0.28323699421965315,
+            "y": 0.6030368763557484,
             "uniqueID": 1749610272756,
             "ioValues": [
                 {
@@ -214,6 +214,82 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.06229929351316635,
+            "y": 0.7527114967462039,
+            "uniqueID": 1749610429957,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.05908798972382787,
+            "y": 0.9088937093275488,
+            "uniqueID": 1749610438079,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 20
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.18561335902376366,
+            "y": 0.7136659436008677,
+            "uniqueID": 1749610547985,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1749610429957
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 12
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.25305073859987154,
+            "y": 0.7809110629067246,
+            "uniqueID": 1749610578102,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1749610547985
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": 1749610438079
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
@@ -286,6 +362,27 @@
             "ap2Primary": false,
             "ap1ID": 1749610272756,
             "ap2ID": 1749610128623
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1749610429957,
+            "ap2ID": 1749610547985
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1749610438079,
+            "ap2ID": 1749610578102
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1749610547985,
+            "ap2ID": 1749610578102
         }
     ],
     "unitsKey": "MM",
