@@ -1,3 +1,3 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-81.000001 -46.000001 157.000002 92.000002" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
-    <path d="M 45 5 L 45 35 L -75 35 A 5 5 0 0 0 -80 40 A 5 5 0 0 0 -75 45 L 45 45 L 75 45 L 75 5 L 75 -5 L 75 -45 L 45 -45 L -75 -45 A 5 5 0 0 0 -80 -40 A 5 5 0 0 0 -75 -35 L 45 -35 L 45 -5 L -75 -5 A 5 5 0 0 0 -80 0 A 5 5 0 0 0 -75 5 L 45 5 Z" />
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-81.000001 -46.000001 187.000002 92.000002" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
+    <path d="M 75 -7.5 L 105 -7.5 L 105 7.5 L 75 7.5 L 75 45 L 45 45 L -75 45 A 5 5 0 0 1 -80 40 A 5 5 0 0 1 -75 35 L 45 35 L 45 5 L -75 5 A 5 5 0 0 1 -80 0 A 5 5 0 0 1 -75 -5 L 45 -5 L 45 -35 L -75 -35 A 5 5 0 0 1 -80 -40 A 5 5 0 0 1 -75 -45 L 45 -45 L 75 -45 L 75 -7.5 Z" />
 </svg>
